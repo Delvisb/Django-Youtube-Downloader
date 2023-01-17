@@ -5,7 +5,6 @@ from pytube import *
 
 # Create your views here.
 def home(request):
-
     return render(request, 'home.html')
 
 class download(View): 
